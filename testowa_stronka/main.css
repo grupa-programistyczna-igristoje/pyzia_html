@@ -1,6 +1,8 @@
 body {
     background: #FFF;
     font-family: 'Roboto', 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -66,8 +68,8 @@ h2 {
 
 .navigation ul {
   padding: 10;
-  margin:auto;
-  
+   margin:auto;
+    
 }
 
 
@@ -83,14 +85,30 @@ h2 {
 }
 
 
+.youtube {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+
+.film {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 75%;
+    height: 75%;
+    margin-left: 240px;
+}
+
+
+
 .footer table{
     color: #666666;
     display: inline-block;
     font-size: 13px;
     margin-bottom: 2px;
-    padding-left: 10px;
+    padding: 25px;
     text-transform: uppercase;
     width: 100%;
 }
-
-    
